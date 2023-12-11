@@ -1,7 +1,11 @@
 import './App.css';
-import { Person } from './Components/Person';
+import { Country, Person} from './Components/Person';
 
 function App() {
+
+  const getAge = (name: string) : number => {
+    return 99;
+  }
 
   return (
     <div className="App">
@@ -11,6 +15,8 @@ function App() {
         age = {19}
         isMarried = {false}
         friends = {["kenia","oscar","ponky","andrea","pablo"]}
+        country = {Country.France}
+
       />
 
     </div>
