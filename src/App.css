@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.navBarElement {
+  padding: 10px;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+}
